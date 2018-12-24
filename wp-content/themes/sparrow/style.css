@@ -1,0 +1,68 @@
+html,body{
+    box-sizing: border-box;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+header .logo a{
+    display: inline-block;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    font-family: 'raleway-bold', sans-serif;
+    color: #fff;
+    position: relative;
+    top: -5px;
+}
+
+.tagcloud:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.widget{
+    overflow: hidden;
+}
+
+#sidebar .widget_categories li.current-cat a{
+    color: red;
+}
+
+#sidebar .widget .text-search{
+    padding-right: 0;
+}
+
+#sidebar .widget .text-search #s{
+    width: 100%;
+}
+
+#gallery-1 .gallery-item{
+    text-align: left !important;
+}
+
+.center-wrap{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin: 100px 0;
+    font-family: 'raleway-bold', sans-serif;
+}
+
+.entry-header:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#contactName,
+#contactEmail,
+#contactSubject,
+#contactMessage{
+    width: 100%;
+}
